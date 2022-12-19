@@ -1,0 +1,152 @@
+{
+  "main": {
+    "id": "0d59d36a01c42845",
+    "type": "split",
+    "children": [
+      {
+        "id": "0c502f6a6f479861",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "030c5d97ba30b9dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dotnet/Entity Framework/Entity States.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f9e603eb1a9ebac1",
+    "type": "split",
+    "children": [
+      {
+        "id": "9239196c66e54220",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d69b5b224d09da71",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "15505db83faf6949",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2a5e39759407a538",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "caf97b99c58179a3",
+    "type": "split",
+    "children": [
+      {
+        "id": "e5c8897ce9718be5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "03e29472d13ebee2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Dotnet/Entity Framework/Entity States.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b7b9688af5270983",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Dotnet/Entity Framework/Entity States.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cb91729dafec4731",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c4c8d99211ae5760",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Dotnet/Entity Framework/Entity States.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "030c5d97ba30b9dd",
+  "lastOpenFiles": [
+    "Untitled.md",
+    "Dotnet/Entity Framework/Entity States.md",
+    "Dotnet/Entity Framework/Installing EF Core.md",
+    "Dotnet/Entity Framework/Welcome.md",
+    "Docker/Advanced DockerFile.md",
+    "Docker/Dockerfile Commands.md",
+    "Docker/Docker.md",
+    "Docker/Code.md",
+    "PowerShell/Uninstall Package.md",
+    "Javascript/Javascript Beginner/Introduction.md"
+  ]
+}

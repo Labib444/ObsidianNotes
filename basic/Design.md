@@ -1,0 +1,6 @@
+- Atomic Design
+- 8 point grid system
+- 4 point grid system
+- shift + A for auto layout
+- ctrl + G then shift + A (to get 0 padding)
+- Human center design
