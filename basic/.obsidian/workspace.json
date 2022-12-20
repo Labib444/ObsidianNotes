@@ -138,10 +138,10 @@
   },
   "active": "030c5d97ba30b9dd",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Dotnet/Entity Framework/Entity States.md",
     "Dotnet/Entity Framework/Installing EF Core.md",
     "Dotnet/Entity Framework/Welcome.md",
+    "Dotnet/Entity Framework/Entity States.md",
+    "Untitled.md",
     "Docker/Advanced DockerFile.md",
     "Docker/Dockerfile Commands.md",
     "Docker/Docker.md",

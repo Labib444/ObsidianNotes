@@ -6,7 +6,7 @@ Changes are tracked in EF. Depending on the changes it will trigger INSERT, UPDA
 - **Deleted**: The entity has been marked for deletion. The `SaveChanges` method issues a `DELETE` statement.
 - **Detached**: The entity isn't being tracked by the database context.
 
-# Way to read one entity
+# Ways to read one entity
 
 The generated code uses **FirstOrDefaultAsync** to read one entity. This method returns null if nothing is found; otherwise, it returns the first row found that satisfies the query filter criteria. FirstOrDefaultAsync is generally a better choice than the following alternatives:
 
@@ -14,3 +14,9 @@ The generated code uses **FirstOrDefaultAsync** to read one entity. This method 
 
 - **FindAsync** - Finds an entity with the primary key (PK). If an entity with the PK is being tracked by the context, it's returned without a request to the database. This method is optimized to look up a single entity, but you can't call Include with FindAsync. So if related data is needed, FirstOrDefaultAsync is the better choice.
 
+# Avoiding Overposting
+
+![[Pasted image 20221220060106.png]]
+
+1. Use ***TryUpdateModelAsync*** Method
+2. Use ***ViewModel*** instead of ***Model*** (Another alternative for *TryUpdateModelAsync* Method)
