@@ -20,3 +20,6 @@ The generated code uses **FirstOrDefaultAsync** to read one entity. This method 
 
 1. Use ***TryUpdateModelAsync*** Method
 2. Use ***ViewModel*** instead of ***Model*** (Another alternative for *TryUpdateModelAsync* Method)
+
+
+

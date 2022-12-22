@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dotnet/Entity Framework/Entity States.md",
+                "file": "Javascript/Javascript Beginner/Introduction.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8896f1838d3452af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dotnet/Entity Framework/DbContext.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dotnet/Entity Framework/Entity States.md",
+                "file": "Dotnet/Entity Framework/DbContext.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dotnet/Entity Framework/Entity States.md",
+                "file": "Dotnet/Entity Framework/DbContext.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dotnet/Entity Framework/Entity States.md"
+                "file": "Dotnet/Entity Framework/DbContext.md"
               }
             }
           }
@@ -136,17 +149,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "030c5d97ba30b9dd",
+  "active": "8896f1838d3452af",
   "lastOpenFiles": [
-    "Dotnet/Entity Framework/Installing EF Core.md",
-    "Dotnet/Entity Framework/Welcome.md",
-    "Dotnet/Entity Framework/Entity States.md",
-    "Untitled.md",
-    "Docker/Advanced DockerFile.md",
-    "Docker/Dockerfile Commands.md",
+    "Javascript/Javascript Beginner/Introduction.md",
+    "Angular/RxJS.md",
     "Docker/Docker.md",
     "Docker/Code.md",
-    "PowerShell/Uninstall Package.md",
-    "Javascript/Javascript Beginner/Introduction.md"
+    "Docker/Advanced DockerFile.md",
+    "Dotnet/Entity Framework/Entity States.md",
+    "Dotnet/Entity Framework/Installing EF Core.md",
+    "Dotnet/Entity Framework/Welcome.md",
+    "Untitled.md",
+    "Docker/Dockerfile Commands.md"
   ]
 }
