@@ -4,35 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "0c502f6a6f479861",
+        "id": "e9db87fc3bf4f480",
         "type": "tabs",
         "children": [
           {
-            "id": "030c5d97ba30b9dd",
+            "id": "830026886735f317",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Javascript/Javascript Beginner/Introduction.md",
+                "file": "Dotnet/Optimization/Optimizing Responses and UI Assets.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8896f1838d3452af",
+            "id": "0249ef0adddde68d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dotnet/Entity Framework/DbContext.md",
+                "file": "Dotnet/Optimization/Optimizing Responses and UI Assets.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c929ca410c362c63",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dotnet/Diagnostics/Welcome.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3dcf2f8eb9e49240",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Javascript/Asychronous/Welcome.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -82,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 278.5
   },
   "right": {
     "id": "caf97b99c58179a3",
@@ -98,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dotnet/Entity Framework/DbContext.md",
+                "file": "Javascript/Asychronous/Welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dotnet/Entity Framework/DbContext.md",
+                "file": "Javascript/Asychronous/Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,8 +162,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dotnet/Entity Framework/DbContext.md"
+                "file": "Javascript/Asychronous/Welcome.md"
               }
+            }
+          },
+          {
+            "id": "e648e7494e0d6544",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
             }
           }
         ]
@@ -149,17 +181,29 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8896f1838d3452af",
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false
+    }
+  },
+  "active": "3dcf2f8eb9e49240",
   "lastOpenFiles": [
-    "Javascript/Javascript Beginner/Introduction.md",
-    "Angular/RxJS.md",
-    "Docker/Docker.md",
-    "Docker/Code.md",
-    "Docker/Advanced DockerFile.md",
-    "Dotnet/Entity Framework/Entity States.md",
-    "Dotnet/Entity Framework/Installing EF Core.md",
-    "Dotnet/Entity Framework/Welcome.md",
-    "Untitled.md",
-    "Docker/Dockerfile Commands.md"
+    "Javascript/Untitled.md",
+    "Dotnet/Diagnostics/Welcome.md",
+    "Dotnet/Optimization/Welcome.md",
+    "Dotnet/Optimization/Asynchronous Techniques.md",
+    "Dotnet/Optimization/Caching.md",
+    "Dotnet/Optimization/Optimizing Responses and UI Assets.md",
+    "Pasted image 20221229165418.png",
+    "Pasted image 20221229165607.png",
+    "Pasted image 20221229165449.png",
+    "Dotnet/Unit Test/Welcome.md"
   ]
 }

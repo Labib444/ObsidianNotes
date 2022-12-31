@@ -1,3 +1,6 @@
+
+# Installing EF Core
+
 - EF Core is a [.NET Standard 2.0](https://learn.microsoft.com/en-us/dotnet/standard/net-standard) library. So EF Core requires a .NET implementation that supports .NET Standard 2.0 to run. EF Core can also be referenced by other .NET Standard 2.0 libraries.
 
 - For example, you can use EF Core to develop apps that target .NET Core. Building .NET Core apps requires the .NET SDK.
