@@ -1,0 +1,5 @@
+
+### Two types
+
+- Structural
+- Attribute

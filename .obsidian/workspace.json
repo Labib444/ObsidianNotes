@@ -1,0 +1,172 @@
+{
+  "main": {
+    "id": "07d1c58a24884937",
+    "type": "split",
+    "children": [
+      {
+        "id": "078eaea6e90343e2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "742792f7070bc5bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "basic/Dotnet/Entity Framework/Entity States.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c92a553c0f0cb40c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "basic/Dotnet/Entity Framework/Entity States.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "125dfd75efff927c",
+    "type": "split",
+    "children": [
+      {
+        "id": "ee51d4dc4d2359a8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "55146c4a3e6e59d7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fac7778743d449fe",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f9e289088e293b10",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f270ccc32e709964",
+    "type": "split",
+    "children": [
+      {
+        "id": "aca08d55f35cef52",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6ef3131ee6582acd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "basic/Dotnet/Entity Framework/Entity States.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c7e2e48839a55808",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "basic/Dotnet/Entity Framework/Entity States.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9ac4d9be70664d3d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6146dac46beae856",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "basic/Dotnet/Entity Framework/Entity States.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "55146c4a3e6e59d7",
+  "lastOpenFiles": [
+    "basic/Angular/Directives.md",
+    "basic/Dotnet/Entity Framework/Entity States.md",
+    "basic/Dotnet/Entity Framework/Welcome.md",
+    "basic/Dotnet/Entity Framework/Installing EF Core.md",
+    "basic/Docker/Code.md",
+    "basic/Docker/Advanced DockerFile.md",
+    "basic/CleanCode/Function.md"
+  ]
+}
