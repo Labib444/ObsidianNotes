@@ -8,55 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "830026886735f317",
+            "id": "0b15f1718f3968c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dotnet/Optimization/Optimizing Responses and UI Assets.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0249ef0adddde68d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dotnet/Optimization/Optimizing Responses and UI Assets.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c929ca410c362c63",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dotnet/Diagnostics/Welcome.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3dcf2f8eb9e49240",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Javascript/Asychronous/Welcome.md",
+                "file": "Angular/Services.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Javascript/Asychronous/Welcome.md",
+                "file": "Angular/Services.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Javascript/Asychronous/Welcome.md",
+                "file": "Angular/Services.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Javascript/Asychronous/Welcome.md"
+                "file": "Angular/Services.md"
               }
             }
           },
@@ -193,17 +156,17 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "3dcf2f8eb9e49240",
+  "active": "0b15f1718f3968c4",
   "lastOpenFiles": [
+    "Dotnet/Optimization/Asynchronous Techniques.md",
+    "Javascript/Asychronous/Welcome.md",
     "Javascript/Untitled.md",
     "Dotnet/Diagnostics/Welcome.md",
     "Dotnet/Optimization/Welcome.md",
-    "Dotnet/Optimization/Asynchronous Techniques.md",
     "Dotnet/Optimization/Caching.md",
     "Dotnet/Optimization/Optimizing Responses and UI Assets.md",
     "Pasted image 20221229165418.png",
     "Pasted image 20221229165607.png",
-    "Pasted image 20221229165449.png",
-    "Dotnet/Unit Test/Welcome.md"
+    "Pasted image 20221229165449.png"
   ]
 }
