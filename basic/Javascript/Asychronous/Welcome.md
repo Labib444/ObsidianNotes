@@ -3,7 +3,6 @@
 - Generators/Coroutines
 - Promises
 
-
 ```javascript
 var a = function() {
 	console.log("I am a function")
@@ -26,11 +25,9 @@ it.next(); //will print "Hello"
 it.next(); //will print "World"
 ```
 
-
 ![[Recording 20221230233523.webm]]
 
 ![[Pasted image 20221230233954.png]]
-
 
 ![[Recording 20221230234800.webm]]
 
@@ -43,7 +40,6 @@ it.next(); //will print "World"
 ![[Pasted image 20221231145305.png]]
 
 ![[Pasted image 20221231145313.png]]
-
 
 ```javascript
 //IIFE Functions
