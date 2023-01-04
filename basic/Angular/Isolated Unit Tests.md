@@ -37,4 +37,27 @@ describe('StrengthPipe', () => {
 
 ###### Testing Components
 
+Cannot pass services in test. Therefore we need a mock;
+
 ![[Pasted image 20230104124930.png]]
+We declare ( let mockHeroService; )
+
+![[Pasted image 20230104144348.png]]
+xit means that skip this test.
+![[Pasted image 20230104144904.png]]
+![[Pasted image 20230104144931.png]]
+
+###### Shallow Tests
+- naming file: file.component.shallow.spec.ts
+![[Pasted image 20230104151055.png]]
+
+![[Pasted image 20230104151350.png]]
+
+![[Pasted image 20230104153733.png]]
+![[Pasted image 20230104154308.png]]
+![[Pasted image 20230104173939.png]]
+![[Pasted image 20230104174558.png]]
+
+![[Pasted image 20230104175724.png]]
+![[Pasted image 20230104175708.png]]
+![[Pasted image 20230104180416.png]]

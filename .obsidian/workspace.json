@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "basic/Docker/Dockerfile Commands.md",
+                "file": "basic/Angular/Isolated Unit Tests.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "basic/Docker/Dockerfile Commands.md",
+                "file": "basic/Angular/Isolated Unit Tests.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "basic/Docker/Dockerfile Commands.md",
+                "file": "basic/Angular/Isolated Unit Tests.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "basic/Docker/Dockerfile Commands.md"
+                "file": "basic/Angular/Isolated Unit Tests.md"
               }
             }
           }
@@ -148,15 +148,15 @@
   },
   "active": "ae0430f27559e6b3",
   "lastOpenFiles": [
+    "basic/CleanCode/Function.md",
+    "basic/Angular/Isolated Unit Tests.md",
+    "basic/Dotnet/Dependency Injection/DI Container.md",
+    "basic/Angular/Services.md",
+    "basic/Docker/Dockerfile Commands.md",
     "basic/Docker/Code.md",
     "basic/Docker/Docker.md",
-    "basic/Angular/Isolated Unit Tests.md",
     "basic/Angular/Directives.md",
-    "basic/Angular/Services.md",
     "basic/Dotnet/Optimization/Caching.md",
-    "basic/Dotnet/Optimization/Asynchronous Techniques.md",
-    "basic/Dotnet/Entity Framework/Entity States.md",
-    "basic/Dotnet/Entity Framework/Installing EF Core.md",
-    "basic/Dotnet/Entity Framework/Restore Existing Database.md"
+    "basic/Dotnet/Optimization/Asynchronous Techniques.md"
   ]
 }
