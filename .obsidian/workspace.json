@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "078eaea6e90343e2",
+        "id": "78852095723daf4b",
         "type": "tabs",
         "children": [
           {
-            "id": "742792f7070bc5bc",
+            "id": "ae0430f27559e6b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "basic/Dotnet/Entity Framework/Entity States.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c92a553c0f0cb40c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "basic/Dotnet/Entity Framework/Entity States.md",
+                "file": "basic/Docker/Dockerfile Commands.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "basic/Dotnet/Entity Framework/Entity States.md",
+                "file": "basic/Docker/Dockerfile Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "basic/Dotnet/Entity Framework/Entity States.md",
+                "file": "basic/Docker/Dockerfile Commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "basic/Dotnet/Entity Framework/Entity States.md"
+                "file": "basic/Docker/Dockerfile Commands.md"
               }
             }
           }
@@ -159,14 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "55146c4a3e6e59d7",
+  "active": "ae0430f27559e6b3",
   "lastOpenFiles": [
-    "basic/Angular/Directives.md",
-    "basic/Dotnet/Entity Framework/Entity States.md",
-    "basic/Dotnet/Entity Framework/Welcome.md",
-    "basic/Dotnet/Entity Framework/Installing EF Core.md",
     "basic/Docker/Code.md",
-    "basic/Docker/Advanced DockerFile.md",
-    "basic/CleanCode/Function.md"
+    "basic/Docker/Docker.md",
+    "basic/Angular/Isolated Unit Tests.md",
+    "basic/Angular/Directives.md",
+    "basic/Angular/Services.md",
+    "basic/Dotnet/Optimization/Caching.md",
+    "basic/Dotnet/Optimization/Asynchronous Techniques.md",
+    "basic/Dotnet/Entity Framework/Entity States.md",
+    "basic/Dotnet/Entity Framework/Installing EF Core.md",
+    "basic/Dotnet/Entity Framework/Restore Existing Database.md"
   ]
 }
