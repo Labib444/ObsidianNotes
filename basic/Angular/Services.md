@@ -119,3 +119,14 @@ Doesn't need an interface like in other oop languages. (Please learn more about 
 ### Providers
 
 ![[Pasted image 20230103021229.png]]
+
+### Http Services
+
+![[Pasted image 20230103201502.png]]
+
+![[Pasted image 20230103204740.png]]
+
+![[Pasted image 20230103204818.png]]
+
+
+- async functions always return a Promise so we can use "catch" to catch errors.
