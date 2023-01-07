@@ -61,3 +61,34 @@ xit means that skip this test.
 ![[Pasted image 20230104175724.png]]
 ![[Pasted image 20230104175708.png]]
 ![[Pasted image 20230104180416.png]]
+ 
+ 
+![[Pasted image 20230105215726.png]]
+
+ ![[Pasted image 20230105220751.png]]
+ 
+![[Pasted image 20230105221416.png]]
+
+![[Pasted image 20230105231607.png]]
+
+![[Pasted image 20230105231743.png]]
+
+![[Pasted image 20230106193821.png]]
+![[Pasted image 20230106193830.png]]
+
+
+- another way
+![[Pasted image 20230106193959.png]]
+
+![[Pasted image 20230106201615.png]]
+
+- Better Method
+- ![[Pasted image 20230106201650.png]]
+
+
+![[Pasted image 20230106201921.png]]
+![[Pasted image 20230106202044.png]]
+
+![[Pasted image 20230106204446.png]]
+![[Pasted image 20230106204646.png]]
+![[Pasted image 20230106204723.png]]
