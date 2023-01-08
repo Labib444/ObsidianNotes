@@ -175,3 +175,24 @@ Assert.IsNotAssignableFrom<Employee>
 - Class fixture
 - Collection fixture
 
+```C#
+IClassFixture<EmployeeServiceFixture> 
+
+[CollectionDefinition("EmployeeServiceCollection")]
+public class EmployeeServiceCollectionFixture : ICollectionFixture<EmployeeServiceFixture>
+{
+}
+
+[Collection("EmployeeServiceCollection")]
+public class EmployeeServiceTests
+{
+}
+```
+
+```C#
+[Trait("Category", "EmployeeFactory_CreateEmployee_ReturnType")]
+```
+
+```C#
+[Trait("Category", "EmployeeFactory_CreateEmployee_ReturnType")]
+```
