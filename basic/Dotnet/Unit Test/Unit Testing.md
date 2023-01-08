@@ -169,7 +169,7 @@ Assert.IsNotAssignableFrom<Employee>
 
 - Test the behaviour of the public method which uses the private method. Donot test private methods as it is private. There always some public method that uses the private method. DONOT make the private method public. Use [InternalsVisible] to test private method but not advised.
 
-### Setting up tests and sharing test context
+### Setting up tests and sharing test context (Incomplete)
 
 - Constructor and dispose
 - Class fixture
@@ -194,5 +194,194 @@ public class EmployeeServiceTests
 ```
 
 ```C#
-[Trait("Category", "EmployeeFactory_CreateEmployee_ReturnType")]
+[Fact(skip="We are skipping this because...")]
 ```
+
+```C#
+//This is used for outputing log message reliably
+private readonly ITestOutputHelper _testOuputHelper;
+_testOutputHelper.WriteLine("...");
+```
+
+### Data Driven
+
+[Theory]
+We provide data to the theory by three ways.
+
+![[Pasted image 20230109000022.png]]
+
+```C#
+[Theory]
+[InlineData("123")]
+[InlineData("456")]
+[InlineData("789")]
+public void someTest(var data)
+{
+	...
+}
+
+[Theory]
+[InlineData("123", "456")]
+public void someTest(var data, var data2)
+{
+	...
+}
+```
+
+```C#
+//Must have static and must return IEnumerable<object[]>
+public static IEnumerable<object[]> ExampleTestData
+{
+	get
+	{
+		return new List<object[]>
+		{
+			new object[] { 100, true },
+			new object[] { 200, false }
+		}
+	}
+}
+
+[Theory]
+[MemberData(nameof(ExampleTestData))]
+public void someTest(var data, var data2)
+{
+	...
+}
+
+
+public static IEnumerable<object[]> ExampleTestDataMethod()
+{
+	return new List<object[]>
+	{
+		new object[] { 100, true },
+		new object[] { 200, false }
+	}
+}
+
+[Theory]
+[MemberData(nameof(ExampleTestDataMethod))]
+public void someTest(var data, var data2)
+{
+	...
+}
+
+
+public static IEnumerable<object[]> ExampleTestDataMethod(int index)
+{
+	var testdata = new List<object[]>
+	{
+		new object[] { 100, true },
+		new object[] { 200, false }
+	}
+	return testdata.Take(index);
+}
+
+[Theory]
+[MemberData(nameof(ExampleTestDataMethod), 1)]
+public void someTest(var data, var data2)
+{
+	...
+}
+```
+
+This works too.
+
+![[Pasted image 20230109001604.png]]
+
+
+![[Pasted image 20230109002133.png]]
+
+```C#
+[Theory]
+[ClassData(typeof(EmployeeServiceTestData))]
+```
+
+![[Pasted image 20230109002548.png]]
+![[Pasted image 20230109002638.png]]
+
+![[Pasted image 20230109002727.png]]
+![[Pasted image 20230109002738.png]]
+
+Create CSV file:
+100,true
+200,false
+Set file properties of Copy to Output Directory set to "Copy always" so that dotnet can read the file.
+
+![[Pasted image 20230109003244.png]]
+![[Pasted image 20230109003304.png]]
+
+### Test Isolation
+- Fakes, dummies, stubs, spies, mocks
+![[Pasted image 20230109004154.png]]
+
+```C#
+public class Test
+{
+	[Fact]
+	public async Task Test()
+	{
+		//Arrange
+		var connection = new SqliteConnection("Data Source=:memory:");
+		connection.Open();
+		var optionsBuilder = new DbContextOptionsBuilder<EmployeeDbContext>()
+			.UseSqlite(connection);
+		var dbContext = new EmployeeDbContext(optionsBuilder.Options);
+		dbContext.Database.Migrate();
+	}
+}
+```
+
+More Arrange
+![[Pasted image 20230109013354.png]]
+![[Pasted image 20230109013403.png]]
+
+Act
+![[Pasted image 20230109013428.png]]
+
+Assert
+![[Pasted image 20230109013443.png]]
+
+
+###### Calling API
+![[Pasted image 20230109013758.png]]
+
+```C#
+TestablePromotionEligibilityHandler : HttpMessageHandler
+{
+	private readonly bool _isEligibleForPromotion;
+
+	public TestablePromotionEligibilityHandler(bool isEligibleForPromotion)
+	{
+		_isEligibleForPromotion = isEligibleForPromotion;
+	}
+
+	protected override Task<HttpResponseMessage> SendAsync(
+		HttpRequestMessage request, Cancellation cancellationToken
+	)
+	{
+		var promotionEligibility = new PromotionEligibility()
+		{
+			EligibleForPromotion = _isEligibleForPromotion	
+		};
+
+		var response = new HttpResponseMessage(System.Net.HttpStatusCode.OK)
+		{
+			Content = new StringContent(
+					JsonSerializer.Serialize(promotionEligibility,
+					new JsonSerializerOptions{
+						PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+					}),
+					Encoding.ASCII,
+					"application/json"
+				)
+			)
+		}
+
+		return Task.FromResult(response);
+	}
+}
+```
+![[Pasted image 20230109015358.png]]
+
+###### Moq
