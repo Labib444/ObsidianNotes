@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "basic/Dotnet/Unit Test/Unit Testing.md",
+                "file": "basic/Dotnet/Optimization/Welcome.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f67480e8e377a85d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "basic/Dotnet/Unit Test/Moq.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "basic/Dotnet/Unit Test/Unit Testing.md",
+                "file": "basic/Dotnet/Unit Test/Moq.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "basic/Dotnet/Unit Test/Unit Testing.md",
+                "file": "basic/Dotnet/Unit Test/Moq.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "basic/Dotnet/Unit Test/Unit Testing.md"
+                "file": "basic/Dotnet/Unit Test/Moq.md"
               }
             }
           }
@@ -146,17 +159,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d202034fb3dd6213",
+  "active": "f67480e8e377a85d",
   "lastOpenFiles": [
+    "basic/Dotnet/Optimization/Welcome.md",
+    "basic/Dotnet/Optimization/Optimizing Responses and UI Assets.md",
+    "basic/Dotnet/Optimization/Caching.md",
+    "basic/Dotnet/Optimization/Asynchronous Techniques.md",
+    "basic/Dotnet/Unit Test/Unit Testing.md",
     "basic/Angular/Isolated Unit Tests.md",
     "basic/CleanCode/Function.md",
     "basic/Dotnet/Dependency Injection/DI Container.md",
     "basic/Angular/Services.md",
-    "basic/Docker/Dockerfile Commands.md",
-    "basic/Docker/Code.md",
-    "basic/Docker/Docker.md",
-    "basic/Angular/Directives.md",
-    "basic/Dotnet/Optimization/Caching.md",
-    "basic/Dotnet/Optimization/Asynchronous Techniques.md"
+    "basic/Docker/Dockerfile Commands.md"
   ]
 }
