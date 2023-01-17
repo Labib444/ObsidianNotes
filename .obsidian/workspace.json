@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "basic/Dotnet/Unit Test/Moq.md",
+                "file": "basic/Angular/RxJS.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "basic/Dotnet/Unit Test/Moq.md",
+                "file": "basic/Angular/RxJS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "basic/Dotnet/Unit Test/Moq.md",
+                "file": "basic/Angular/RxJS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "basic/Dotnet/Unit Test/Moq.md"
+                "file": "basic/Angular/RxJS.md"
               }
             }
           }
@@ -161,15 +161,15 @@
   },
   "active": "f67480e8e377a85d",
   "lastOpenFiles": [
+    "basic/Angular/Services.md",
+    "basic/Angular/Tests.md",
+    "basic/Angular/Directives.md",
+    "basic/Angular/Isolated Unit Tests.md",
+    "basic/Angular/RxJS.md",
+    "basic/Javascript/Asychronous/Welcome.md",
+    "basic/Dotnet/Unit Test/Moq.md",
     "basic/Dotnet/Optimization/Welcome.md",
     "basic/Dotnet/Optimization/Optimizing Responses and UI Assets.md",
-    "basic/Dotnet/Optimization/Caching.md",
-    "basic/Dotnet/Optimization/Asynchronous Techniques.md",
-    "basic/Dotnet/Unit Test/Unit Testing.md",
-    "basic/Angular/Isolated Unit Tests.md",
-    "basic/CleanCode/Function.md",
-    "basic/Dotnet/Dependency Injection/DI Container.md",
-    "basic/Angular/Services.md",
-    "basic/Docker/Dockerfile Commands.md"
+    "basic/Dotnet/Optimization/Caching.md"
   ]
 }
