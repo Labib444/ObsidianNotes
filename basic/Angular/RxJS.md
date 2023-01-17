@@ -156,3 +156,40 @@ of(2, 4, 6)
 
 - share
 - shareReply
+
+
+### Combing data streams
+
+- combineLatest ( it is not pipable )
+- All of the observables need to emit then one output will be provided by combineLatest
+
+![[Pasted image 20230117132930.png]]
+
+![[Pasted image 20230117132638.png]]
+![[Pasted image 20230117132854.png]]
+- forkJoin
+![[Pasted image 20230117133142.png]]
+![[Pasted image 20230117133246.png]]
+![[Pasted image 20230117133326.png]]
+- withLatestFrom
+- It is a pipable operator.
+![[Pasted image 20230117150715.png]]
+![[Pasted image 20230117150834.png]]
+- A1 didn't emit because all other observables didn't emit.
+![[Pasted image 20230117151038.png]]
+- It ends when source completes.
+![[Pasted image 20230117151126.png]]
+- If all sources emit then combineLatest will emit.
+- If all sources complete then forkJoin will emit.
+- If source emits and all other sources have emitted then withLatestFrom will emit. If source completes and others didn't complete then there will be no new emits.
+![[Pasted image 20230117152603.png]]
+![[Pasted image 20230117161641.png]]
+![[Pasted image 20230117161654.png]]
+![[Pasted image 20230117161829.png]]
+
+### Reacting to Actions
+
+- filter
+- startWith
+- Subject
+- BehaviorSubject
