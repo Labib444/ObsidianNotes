@@ -54,9 +54,69 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b6e02af413bce3f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AWS/AWS/Class 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b7d1291e4b75aeb9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AWS/AWS/Class N.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e4cf12f7c23dc75f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Angular/Angular Routing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1703b0c6866584de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Angular/Angular Routing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5fe6f167605d8182",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dotnet/Optimization/Caching.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -122,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Angular/RxJS.md",
+                "file": "Angular/Angular Routing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Angular/RxJS.md",
+                "file": "Angular/Angular Routing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Angular/RxJS.md"
+                "file": "Angular/Angular Routing.md"
               }
             }
           },
@@ -193,17 +253,17 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "e42243fc835a196c",
+  "active": "1703b0c6866584de",
   "lastOpenFiles": [
-    "AWS/LP_Class/Class 3.md",
-    "AWS/LP_Class/Class 2.md",
+    "AWS/AWS/Class N.md",
+    "AWS/AWS/Class 2.md",
+    "Angular/Angular Routing.md",
+    "Dotnet/Optimization/Caching.md",
+    "AWS/LP_Class/Class N.md",
+    "Angular/Directives.md",
+    "Ansible/Class/Class 1.md",
     "Angular/RxJS.md",
-    "Angular/Services.md",
-    "Dotnet/Unit Test/Unit Testing.md",
-    "Dotnet/Unit Test/Testing Controllers.md",
-    "Dotnet/Unit Test/Moq.md",
-    "Dotnet/Unit Test/Welcome.md",
-    "Dotnet/Optimization/Asynchronous Techniques.md",
-    "Pasted image 20230109004041.png"
+    "AWS/LP_Class/Class 3.md",
+    "AWS/LP_Class/Class 2.md"
   ]
 }
