@@ -1,0 +1,4 @@
+- Runtime representation of an image.
+- They are temporary (changes done to the container will be removed if you destroy the container so we need to build an image.)
+- The layer is RW (read write permission)
+- We can create as many containers as we want from one image.
