@@ -212,3 +212,214 @@ ls conf/
 ```bash
 docker build -t nginx:v1 -f Dockerfile-nginx .
 ```
+
+- copy from [Example vhost config for Nginx (PHP) · GitHub](https://gist.github.com/lukearmstrong/7155390)
+```
+vi conf\ (paste the code from the github)
+```
+
+```
+server {
+	listen 80;
+	#server_name .example.co.uk.dev;
+	server_name 35.171.121.237:90; (change it to your desire)
+
+	access_log /nginx_php/access.log; (change it)
+	error_log  /nginx_php/error.log error; (change it)
+
+	root /nginx_php; (change it to your desire)
+	index index.php index.html;
+
+	location / {
+		try_files $uri $uri/ /index.php?$query_string;
+	}
+
+	location ~ \.php {
+		fastcgi_index index.php; (change it)
+		fastcgi_pass 127.0.0.1:9000; (change it)
+
+		include fastcgi_params;
+		fastcgi_split_path_info ^(.+\.php)(/.+)$;
+		fastcgi_param PATH_INFO $fastcgi_path_info;
+		fastcgi_param PATH_TRANSLATED $document_root$fastcgi_path_info;
+		fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+	}
+
+	# Prevents caching of css/less/js/images, only use this in development
+	location ~* \.(css|less|js|jpg|png|gif)$ {
+		add_header Cache-Control "no-cache, no-store, must-revalidate"; 
+		add_header Pragma "no-cache";
+		expires 0;
+	}
+}
+```
+
+- problem: If we want to run phpa and nginx we have manually run it from the terminal. It is not possible from the docker if your thinking to run it in forground mode. Therefore we have go inside the image and run the terminal and run some commands. To automate it we have to write a script.
+
+```
+vi Dockerfile-Nginx
+
+FROM centos
+COPY conf/nginx.repo /etc/yum.repos.d/nginx.repo
+RUN yum install -y nginx && \ 
+	yum install -y https://centos7.iuscommunity.org/ius-release.rpm && \
+	yum install -y \ 
+		php71u-fpm \
+		php71u-common \
+		php71-cli --enablerepo=ius && yum clean all
+
+RUN mkdir /nginx_php
+COPY conf/nginx.conf /etc/nginx/conf.d/default.conf
+
+#save it
+
+docker build -t nginx:v1 -f Dockerfile-Nginx
+docker ps
+docker rm -f apache_ssl
+
+docker build -t nginx:v1 -f Dockerfile-Nginx .
+docker run -d --name test -p 9090:80
+docker rm -f test
+docker run -dti --name test -p 9090:80 nginx:v1
+
+docker exec -ti test bash
+ps aux
+/usr/sbin/php-fpm
+ps aux
+nginx -g 'daemon off;'
+
+
+docker rm -f test
+docker build -t nginx:v1 -f Dockerfile-Nginx .
+docker run -dti --name test -p 9090:80 nginx:v1
+docker exec -ti test bash
+ps aux
+/usr/sbin/php-fpm (running a command)
+nginx -g 'daemon off;'
+```
+
+```
+vi conf/start.sh
+#!/bin/bash
+
+#Starting php
+echo "*** starting php"
+/usr/sbin/php-fpm
+
+#Start nginx
+echo "*** starting nginx"
+nginx -g 'daemon off;'
+
+#save it
+
+vi Dockerfile-Nginx
+COPY conf/nginx.conf /etc/nginx/conf.d/default.conf
+COPY conf/start.sh /start.sh
+RUN chmod +x /start.sh
+CMD /start.sh
+docker build -t nginx:v1 -f Dockerfile-Nginx .
+docker rm -f test
+docker ps
+docker build -t nginx:v1 -f Dockerfile-Nginx .
+docker run -d --name test -p 9090:80 nginx:v1
+docker ps
+```
+
+```bash
+vi Dockerfile-Nginx
+...
+...
+...
+COPY conf/nginx.conf /etc/nginx/conf.d/default.conf
+COPY fruit /nginx_php # (ui pages)
+COPY test.php /nginx_php
+COPY conf/start.sh /start.sh
+RUN chmod +x /start.sh
+CMD /start.sh
+```
+
+### Multistage
+
+```bash
+mkdir multi-stage
+ll
+cd multi-stage/
+vi Dockerfile
+
+FROM centos
+#save it
+
+docker images | grep centos (watch the size 202 MB)
+docker build -t test-multi .
+docker images | grep multi
+
+fallocate -l 10M file1 (creating a file size of 10MB)
+du -sh file1
+rm -rf file1
+```
+
+```
+FROM centos
+RUN fallocate -l 10M /opt/1
+RUN fallocate -l 10M /opt/2
+RUN fallocate -l 5M /opt/jar
+#save it
+
+docker images | grep multi
+docker pull alpine
+docker images | grep alpine
+```
+
+```
+FROM centos as build
+RUN fallocate -l 10M /opt/1
+RUN fallocate -l 10M /opt/2
+RUN fallocate -l 5M /opt/jar
+
+FROM alpine 
+COPY --from=build /opt/jar /jarfile.jar
+#save it
+
+docker build -t test-multi .
+```
+
+```bash
+
+FROM maven:3.6-alpine
+
+
+FROM openjdk:8-alpine
+
+```
+- git clone https://github.com/jenkins-docs/simple-java-maven-app.git
+```
+mv simple-java-maven-app/ app-maven
+ll
+vi Dockerfile
+```
+```
+FROM maven:3.6-alpine
+COPY app-maven /app
+WORKDIR /app
+RUN mvn package
+
+#FROM openjdk:8-alpine
+#save it
+#build docker
+
+vi Dockerfile
+```
+```bash
+FROM maven:3.6-alpine as builder
+COPY app-maven /app
+WORKDIR /app
+RUN mvn package
+
+FROM openjdk:8-alpine
+COPY --from=builder /app/target/my-app-1.0-SNAPSHOT.jar /app.jar
+CMD java -jar /app.jar
+```
+
+![[Recording 20230227080828.webm]]
+
+###
