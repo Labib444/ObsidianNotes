@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "basic/Angular/Angular Routing (in office).md",
+                "file": "basic/Angular/Angular Routing.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "basic/Angular/Angular Routing (in office).md",
+                "file": "basic/Angular/Angular Routing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "basic/Angular/Angular Routing (in office).md",
+                "file": "basic/Angular/Angular Routing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "basic/Angular/Angular Routing (in office).md"
+                "file": "basic/Angular/Angular Routing.md"
               }
             }
           }
@@ -181,11 +181,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cb0bf1961affee00",
+  "active": "55146c4a3e6e59d7",
   "lastOpenFiles": [
+    "basic/Angular/Angular Routing (in office).md",
     "basic/Angular/Directives.md",
     "basic/Angular/RxJS.md",
-    "basic/Angular/Angular Routing (in office).md",
     "Pasted image 20230104105519.png",
     "basic/Angular/Modal EventEmitter.md",
     "basic/Angular/Services.md",
