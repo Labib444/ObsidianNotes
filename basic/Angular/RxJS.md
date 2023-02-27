@@ -193,3 +193,20 @@ of(2, 4, 6)
 - startWith
 - Subject
 - BehaviorSubject
+![[Pasted image 20230222210508.png]]
+![[Pasted image 20230222210705.png]]
+![[Pasted image 20230222211428.png]]
+![[Pasted image 20230222211531.png]]
+![[Pasted image 20230222221732.png]]
+![[Pasted image 20230222221655.png]]
+
+
+![[Pasted image 20230222221614.png]]
+
+![[Pasted image 20230222221538.png]]
+
+![[Pasted image 20230222221501.png]]
+
+![[Pasted image 20230222221428.png]]
+![[Pasted image 20230222223233.png]]
+![[Pasted image 20230222223711.png]]

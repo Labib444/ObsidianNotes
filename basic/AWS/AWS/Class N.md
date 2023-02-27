@@ -39,3 +39,8 @@ N.A: 10.0.0.0 - 10.255.255.255 >> 10.0.0.1-10.255.255.254
 ipcalc 172.16.0.0/16 (command in linux)
 
 private ip > NAT > public ip
+
+
+
+## VPC
+

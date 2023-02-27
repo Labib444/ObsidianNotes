@@ -4,71 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "e9db87fc3bf4f480",
+        "id": "4dc2365f95c47ddf",
         "type": "tabs",
         "children": [
           {
-            "id": "3ca01419cebdbb71",
+            "id": "f522195603460ef8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dotnet/Optimization/Asynchronous Techniques.md",
+                "file": "Ansible/Class/Class 1.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "15034bd848f32670",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dotnet/Unit Test/Unit Testing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4a0170d36bb1a028",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AWS/LP_Class/Class 2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e42243fc835a196c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Angular/RxJS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b6e02af413bce3f1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AWS/AWS/Class 2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b7d1291e4b75aeb9",
+            "id": "5257c6e8051248bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -80,43 +32,43 @@
             }
           },
           {
-            "id": "e4cf12f7c23dc75f",
+            "id": "de56de496bf2a277",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Angular/Angular Routing.md",
+                "file": "Angular/RxJS.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1703b0c6866584de",
+            "id": "098fda9c19cc0921",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Angular/Angular Routing.md",
+                "file": "Docker/Container.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "5fe6f167605d8182",
+            "id": "4de88c58cacedd03",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dotnet/Optimization/Caching.md",
+                "file": "Docker/Advanced DockerFile.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -182,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Angular/Angular Routing.md",
+                "file": "Docker/Advanced DockerFile.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Angular/Angular Routing.md",
+                "file": "Docker/Advanced DockerFile.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Angular/Angular Routing.md"
+                "file": "Docker/Advanced DockerFile.md"
               }
             }
           },
@@ -253,17 +205,31 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "1703b0c6866584de",
+  "active": "4de88c58cacedd03",
   "lastOpenFiles": [
-    "AWS/AWS/Class N.md",
-    "AWS/AWS/Class 2.md",
-    "Angular/Angular Routing.md",
-    "Dotnet/Optimization/Caching.md",
-    "AWS/LP_Class/Class N.md",
-    "Angular/Directives.md",
-    "Ansible/Class/Class 1.md",
+    "Recording 20230227080828.webm",
+    "Docker/Container.md",
+    "Docker/Volumes.md",
+    "Recording 20230227080638.webm",
+    "Docker/Docker Compose.md",
+    "Pasted image 20230227052412.png",
+    "Docker/Docker.md",
+    "Docker/Code.md",
+    "Docker/Advanced DockerFile.md",
+    "Kubernetes/1.md",
+    "Dotnet/Dependency Injection/DI Container.md",
+    "Pasted image 20230226053602.png",
+    "Pasted image 20230225061625.png",
+    "Docker/Dockerfile Commands.md",
+    "Angular/ngRX.md",
     "Angular/RxJS.md",
-    "AWS/LP_Class/Class 3.md",
-    "AWS/LP_Class/Class 2.md"
+    "Linux/RHCE7/IP Configuration.md",
+    "AWS/AWS/Class N.md",
+    "Ansible/Class/Class n.md",
+    "Ansible/Class/Class 1.md",
+    "AWS/Simulation/2.md",
+    "Angular/Angular Routing (in office).md",
+    "Angular/Angular Routing.md",
+    "AWS/Simulation/1.md"
   ]
 }

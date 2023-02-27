@@ -69,3 +69,10 @@
 ![[Pasted image 20230205021158.png]]
 ![[Pasted image 20230205021317.png]]
 ![[Pasted image 20230205021349.png]]
+### Lazy Loading
+![[Pasted image 20230206202126.png]]
+- required to do lazy loading.
+![[Pasted image 20230206214359.png]]
+![[Pasted image 20230206214932.png]]
+![[Pasted image 20230206215012.png]]
+- need to remove products from the right side also canActivate and remove "children: ["
