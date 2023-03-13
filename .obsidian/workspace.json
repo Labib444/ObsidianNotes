@@ -4,57 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "5ad2242d39ba211b",
+        "id": "9a3564cf33566eac",
         "type": "tabs",
         "children": [
           {
-            "id": "d202034fb3dd6213",
+            "id": "f84bbe96b130299f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "basic/Dotnet/Optimization/Welcome.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f67480e8e377a85d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "basic/Angular/RxJS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3d7fb120fad621e4",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Pasted image 20230104105519.png"
-              }
-            }
-          },
-          {
-            "id": "cb0bf1961affee00",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "basic/Angular/Angular Routing.md",
+                "file": "basic/Ansible/Office/Complex Playbooks.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "basic/Angular/Angular Routing.md",
+                "file": "basic/Ansible/Office/Complex Playbooks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "basic/Angular/Angular Routing.md",
+                "file": "basic/Ansible/Office/Complex Playbooks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "basic/Angular/Angular Routing.md"
+                "file": "basic/Ansible/Office/Complex Playbooks.md"
               }
             }
           }
@@ -183,15 +148,27 @@
   },
   "active": "55146c4a3e6e59d7",
   "lastOpenFiles": [
-    "basic/Angular/Angular Routing (in office).md",
-    "basic/Angular/Directives.md",
+    "basic/Untitled",
+    "Pasted image 20230313163342.png",
+    "Pasted image 20230313162810.png",
+    "Pasted image 20230313162031.png",
+    "Pasted image 20230313161755.png",
+    "Pasted image 20230313161712.png",
+    "basic/Dotnet/Dependency Injection/DI Container.md",
+    "basic/Dotnet/Architecture/Welcome.md",
+    "basic/Ansible/Office/Complex Playbooks.md",
+    "Pasted image 20230313161259.png",
+    "Pasted image 20230313161012.png",
+    "basic/Ansible/Office",
+    "basic/Dotnet/Optimization/Welcome.md",
     "basic/Angular/RxJS.md",
     "Pasted image 20230104105519.png",
-    "basic/Angular/Modal EventEmitter.md",
-    "basic/Angular/Services.md",
-    "basic/Angular/Tests.md",
-    "basic/Angular/Isolated Unit Tests.md",
-    "basic/Javascript/Asychronous/Welcome.md",
-    "basic/Dotnet/Unit Test/Moq.md"
+    "basic/CleanCode/Function.md",
+    "basic/Docker/Volumes.md",
+    "basic/Docker/Dockerfile Commands.md",
+    "basic/Docker/Container.md",
+    "basic/Docker/Docker.md",
+    "basic/Docker/Docker Compose.md",
+    "basic/Docker/Code.md"
   ]
 }
