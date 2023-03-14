@@ -21,3 +21,5 @@
 
 ### Partitioning Storage
 
+![[Pasted image 20230314141226.png]]
+![[Pasted image 20230314144259.png]]
