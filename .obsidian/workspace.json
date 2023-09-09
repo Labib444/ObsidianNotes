@@ -4,57 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "5ad2242d39ba211b",
+        "id": "a130e4f76f33355f",
         "type": "tabs",
         "children": [
           {
-            "id": "d202034fb3dd6213",
+            "id": "05bbe33a87de653c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "basic/Dotnet/Optimization/Welcome.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f67480e8e377a85d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "basic/Angular/RxJS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3d7fb120fad621e4",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Pasted image 20230104105519.png"
-              }
-            }
-          },
-          {
-            "id": "cb0bf1961affee00",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "basic/Angular/Angular Routing (in office).md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "basic/Angular/Angular Routing (in office).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "basic/Angular/Angular Routing (in office).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "basic/Angular/Angular Routing (in office).md"
-              }
+              "state": {}
             }
           }
         ]
@@ -181,17 +138,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cb0bf1961affee00",
+  "active": "05bbe33a87de653c",
   "lastOpenFiles": [
-    "basic/Angular/Directives.md",
+    "basic/Ansible/Office/Automate Linux Admin Tasks.md",
+    "basic/Ansible/Office/Complex Playbooks.md",
+    "Pasted image 20230314152841.png",
+    "Pasted image 20230314151302.png",
+    "Pasted image 20230314145017.png",
+    "Pasted image 20230314144259.png",
+    "Pasted image 20230314141226.png",
+    "basic/Untitled",
+    "Pasted image 20230313163342.png",
+    "Pasted image 20230313162810.png",
+    "Pasted image 20230313162031.png",
+    "Pasted image 20230313161755.png",
+    "Pasted image 20230313161712.png",
+    "basic/Dotnet/Dependency Injection/DI Container.md",
+    "basic/Dotnet/Architecture/Welcome.md",
+    "basic/Ansible/Office",
+    "basic/Dotnet/Optimization/Welcome.md",
     "basic/Angular/RxJS.md",
-    "basic/Angular/Angular Routing (in office).md",
-    "Pasted image 20230104105519.png",
-    "basic/Angular/Modal EventEmitter.md",
-    "basic/Angular/Services.md",
-    "basic/Angular/Tests.md",
-    "basic/Angular/Isolated Unit Tests.md",
-    "basic/Javascript/Asychronous/Welcome.md",
-    "basic/Dotnet/Unit Test/Moq.md"
+    "basic/CleanCode/Function.md",
+    "basic/Docker/Volumes.md",
+    "basic/Docker/Dockerfile Commands.md",
+    "basic/Docker/Container.md",
+    "basic/Docker/Docker.md",
+    "basic/Docker/Docker Compose.md",
+    "basic/Docker/Code.md"
   ]
 }
