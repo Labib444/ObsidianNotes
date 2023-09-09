@@ -383,5 +383,3 @@ TestablePromotionEligibilityHandler : HttpMessageHandler
 }
 ```
 ![[Pasted image 20230109015358.png]]
-
-###### Moq

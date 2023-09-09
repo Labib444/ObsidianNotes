@@ -4,64 +4,64 @@
     "type": "split",
     "children": [
       {
-        "id": "4dc2365f95c47ddf",
+        "id": "5f6ab97fece6fe41",
         "type": "tabs",
         "children": [
           {
-            "id": "f522195603460ef8",
+            "id": "17f436cc8852f1b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ansible/Class/Class 1.md",
+                "file": "Docker/Dockerfile Commands.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "5257c6e8051248bc",
+            "id": "57f5717901fb94cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/AWS/Class N.md",
+                "file": "External APIs/Google Tag Manager.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "de56de496bf2a277",
+            "id": "f20f158879feed1b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Angular/RxJS.md",
+                "file": "Angular/Directives.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "098fda9c19cc0921",
+            "id": "feccef64d21cdc05",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Container.md",
+                "file": "Angular/ngRX Part 1.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4de88c58cacedd03",
+            "id": "686e428b99af85b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Advanced DockerFile.md",
+                "file": "Angular/ngRX Part 3.md",
                 "mode": "source",
                 "source": false
               }
@@ -113,12 +113,20 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "0463c6d1748d76ea",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 278.5
+    "width": 390.5
   },
   "right": {
     "id": "caf97b99c58179a3",
@@ -134,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Advanced DockerFile.md",
+                "file": "Angular/ngRX Part 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/Advanced DockerFile.md",
+                "file": "Angular/ngRX Part 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Advanced DockerFile.md"
+                "file": "Angular/ngRX Part 3.md"
               }
             }
           },
@@ -186,50 +194,73 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 560.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "audio-recorder:Start/stop recording": false
+      "audio-recorder:Start/stop recording": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4de88c58cacedd03",
+  "active": "686e428b99af85b0",
   "lastOpenFiles": [
-    "Recording 20230227080828.webm",
-    "Docker/Container.md",
-    "Docker/Volumes.md",
-    "Recording 20230227080638.webm",
-    "Docker/Docker Compose.md",
-    "Pasted image 20230227052412.png",
-    "Docker/Docker.md",
-    "Docker/Code.md",
-    "Docker/Advanced DockerFile.md",
-    "Kubernetes/1.md",
-    "Dotnet/Dependency Injection/DI Container.md",
-    "Pasted image 20230226053602.png",
-    "Pasted image 20230225061625.png",
-    "Docker/Dockerfile Commands.md",
-    "Angular/ngRX.md",
-    "Angular/RxJS.md",
-    "Linux/RHCE7/IP Configuration.md",
-    "AWS/AWS/Class N.md",
-    "Ansible/Class/Class n.md",
-    "Ansible/Class/Class 1.md",
-    "AWS/Simulation/2.md",
-    "Angular/Angular Routing (in office).md",
+    "Pasted image 20230910002208.png",
+    "Pasted image 20230910001036.png",
+    "Pasted image 20230910000048.png",
+    "Pasted image 20230909235822.png",
+    "Pasted image 20230909235027.png",
+    "Pasted image 20230909222025.png",
+    "Pasted image 20230909222023.png",
+    "Pasted image 20230909222022.png",
+    "Angular/Using Libraries/Apex Charts.md",
+    "Pasted image 20230909195447.png",
+    "Angular/ngRX Part 3.md",
+    "Angular/Using Libraries",
+    "Pasted image 20230909163610.png",
+    "Angular/ngRX Part 2.md",
+    "Pasted image 20230909162856.png",
+    "Angular/Best Practices.md",
+    "Recording 20230909005219.webm",
+    "Angular/Tests.md",
+    "Angular/ngRX Part 1.md",
+    "ngRx Part 2.md",
+    "Recording 20230908043540.webm",
+    "Recording 20230908043027.webm",
+    "Attribute Directives.md",
+    "Angular/Directives.md",
     "Angular/Angular Routing.md",
-    "AWS/Simulation/1.md"
+    "Angular/Services.md",
+    "Angular/RxJS.md",
+    "Docker/Volumes.md",
+    "Docker/Dockerfile Commands.md",
+    "Docker/Docker Compose (After Repair).md",
+    "Docker/Docker Compose.md",
+    "Docker/Advanced DockerFile.md",
+    "Docker/Container.md",
+    "TypeScript/Intermediate Level.md",
+    "TypeScript/Complex Types.md",
+    "TypeScript/Advanced Object Types.md",
+    "TypeScript/Intro.md",
+    "TypeScript/Union.md",
+    "Design.md",
+    "Docker/Code.md",
+    "External APIs",
+    "Linux/RHCSA",
+    "TypeScript",
+    "Dotnet/Web-Api Best Practices",
+    "Comp/Number Theory",
+    "Comp"
   ]
 }

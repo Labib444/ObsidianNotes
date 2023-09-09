@@ -14,7 +14,7 @@ docker rm -fv CONTAINER_ID
 
 ### What is container
 
-1. Container is a process wrapped in a box which is independant to other processes in a OS.
+1. Container is a process wrapped in a box which is independent to other processes in a OS.
 2. Contains C Groups for controlling it.
 3. Has name space for processes inside the container, these processes can talk to each other.
 

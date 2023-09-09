@@ -210,3 +210,24 @@ of(2, 4, 6)
 ![[Pasted image 20230222221428.png]]
 ![[Pasted image 20230222223233.png]]
 ![[Pasted image 20230222223711.png]]
+
+  ![[Pasted image 20230316194642.png]]
+  
+  ![[Pasted image 20230316194737.png]]
+  ![[Pasted image 20230316194711.png]]
+
+ ![[Pasted image 20230316211128.png]]
+ ![[Pasted image 20230316211204.png]]
+ ![[Pasted image 20230316212820.png]]
+ ![[Pasted image 20230316213020.png]]
+ ![[Pasted image 20230316213101.png]]
+ ![[Pasted image 20230316213209.png]]
+ ![[Pasted image 20230316213249.png]]
+ ![[Pasted image 20230316213359.png]]
+ ![[Pasted image 20230316213953.png]]
+ ![[Pasted image 20230316221830.png]]
+ ![[Pasted image 20230316223501.png]]
+ ![[Pasted image 20230316225646.png]]
+
+### Caching
+

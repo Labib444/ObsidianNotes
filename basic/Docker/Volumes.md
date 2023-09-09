@@ -118,3 +118,8 @@ docker exec jenkins bash -c "whoami"
 ```
 
 ![[Recording 20230227080638.webm]]
+
+### Important
+
+- for sql server you need 2GB memory or more
+- passwords provided must 8 digits with capital letters and symbols.

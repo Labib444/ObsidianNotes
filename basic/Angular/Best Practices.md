@@ -1,0 +1,5 @@
+- LIFT
+- Locate Code Quickly
+- Identify Code at a Glance
+- Flattest Structure Possible
+- Try to be DRY
