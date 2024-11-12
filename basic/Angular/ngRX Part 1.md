@@ -37,6 +37,7 @@ StoreModule.forFeature('products',
 - Reducers must be a pure function which means f(a, b) => a+b, if you put a=1,b=1 it will always output 2 but in f(a) => a+b, here b is a global variable and the value of b may vary therefore the output of f(a) is not always same for the same parameter, so that is a impure function.
 
 ```javascript
+//product.reducer.ts
 export const productReducer = createReducer(
 	initialState,
 	on(ProductActions.toggleProductCode, state => {

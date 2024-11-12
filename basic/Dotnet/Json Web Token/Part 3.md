@@ -66,3 +66,7 @@ builder.Services.AddCors( options => options.AddPolicy(
 var app = builder.Build();
 app.UseCors("NgOrigins");
 ```
+# ** Important Info **
+
+- Need to use interceptors to when the main keys expires it will trigger to refresh the token provided the refresh token itself has not expired. Main key expire time is < Refresh Token Expire time. Basically in angular the middle man here interceptors, when doing an api call will get unauthorized because main key has expired, so it will then call refresh-token to get a new key. if the refresh key is matched and not expired then it will provide the new key. refresh tokens are kept in HttpOnly cookies, such cookies cannot be accessed through code in javascript.
+

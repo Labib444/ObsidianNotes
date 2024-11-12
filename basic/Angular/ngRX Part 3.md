@@ -26,5 +26,21 @@
 ###### Barrel Format
 
 > Basically create a new file named index.ts file in your state folder and put interfaces and selectors inside of it.
-
+![[Pasted image 20230910005627.png]]
 ###### Formatting Actions
+
+![[Pasted image 20230910005805.png]]
+
+> Those Actions which deal with API call are kept in product-api.actions.ts and those don't are in product-page.actions.ts. 
+> 
+> Give [Product Page ...] names to product-page.actions.ts
+> Give [Product API ...] names to product-api.actions.ts
+
+###### How to structure state modules
+
+![[Pasted image 20230910013042.png]]
+
+
+![[Recording 20230910013248.webm]]
+
+

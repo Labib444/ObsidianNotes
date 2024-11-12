@@ -48,7 +48,7 @@ public async Task<ActionResult<string>> Login(UserDTO request)
 		return BadRequest("Password didn't match!");
 	}
 	string token = CreateToken(user);
-	return Ok("My Crazy Token!");
+	return Ok(token);
 }
 ```
 
@@ -94,10 +94,12 @@ private string CreateToken(User user)
 	))
 
 	var cred = new SigningCredentials(key, SecurityAlgorithms.HmacSha512Signature);
+	
 	var token = new JwtSecurityToken(
 		claims: claims,
 		expires: DateTime.Now.AddDays(1),
 		signingCredentials: creds);
+		
 	var jwt = new JwtSecurityTokenHandler().WriteToken(token);
 
 	return jwt;
